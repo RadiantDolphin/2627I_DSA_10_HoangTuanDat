@@ -51,7 +51,7 @@ public class w3_tailop_25021709 {
                 }
             }
 
-            
+
             else {
                 // probably an operator
                 while (!stack.isEmpty() && stack.peek() != '(' && priority(currentCharacter) <= priority(stack.peek())) {
